@@ -16,12 +16,12 @@ const experiences = [
 
 export function Tools() {
     return (
-        <section className="mt-10 overflow-hidden lg:w-150 xl:w-200">
+        <section id="tools" className="mt-10 overflow-hidden lg:w-150 xl:w-200">
             <h1>PRINCIPAIS <span className="text-gray">FERRAMENTAS</span></h1>
 
             <div className="flex flex-row justify-center flex-wrap gap-5 lg:gap-10 lg:justify-start">
                 {experiences.map((item, index) => (
-                    <div key={index} className="flex items-center gap-5 w-50">
+                    <div key={index} className="flex items-center gap-5 w-50 hover:scale-105 hover:brightness-110 transition transform duration-300">
                         <Image
                             src={item.icon}
                             alt={item.title}

@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <section className="mt-10 overflow-x-hidden lg:w-150 xl:w-200 mb-10">
+        <section id="footer" className="mt-10 overflow-x-hidden lg:w-150 xl:w-200 mb-10">
             <h1>VAMOS <span className="text-gray">CONVERSAR</span></h1>
 
             <form className="px-2">

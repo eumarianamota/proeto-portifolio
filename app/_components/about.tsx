@@ -4,7 +4,7 @@ import { ArrowRightCircle } from "lucide-react"
 export function About() {
     return (
         <section id="about" className="mt-10 overflow-hidden lg:w-150 xl:w-200 lg:mt-0">
-            <div className="text-center lg:text-start lg:w-180">
+            <div className="text-center lg:text-start lg:w-150 xl:w-180">
                 <h1>FRONT-END <span className="text-gray">DEVELOPER</span></h1>
                 <p className="text-gray-400 mt-5 lg:text-lg">Sou desenvolvedora Frontend e gosto de criar interfaces que sejam bonitas e, acima de tudo, funcionais, usando tecnologias como Next.js e Tailwind CSS. Além de construir projetos para a web, tenho mergulhado nos estudos de Dados porque acredito que entender os números ajuda a construir experiências melhores para o usuário.
 

@@ -8,7 +8,7 @@ import { Tools } from "./_components/tools"
 
 export default function Home() {
   return (
-    <section className="bg-black w-full h-screen px-10 flex flex-col items-center">
+    <section className="bg-black w-full h-screen px-10 flex flex-col items-center scroll-smooth">
       <header>
         <Header />
       </header>

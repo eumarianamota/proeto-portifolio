@@ -9,7 +9,7 @@ export function Header() {
                         <a href={item.url}>
                             <item.icon className='size-6 md:size-8 text-white hover:scale-115 transition-all duration-300 ease'/>
                         </a>
-                        <span className="opacity-0 absolute text-xs mt-15 -translate-y-2 transition-all duration-300 group-hover:opacity-80 group-hover:translate-y-0 font-medium" >
+                        <span className="opacity-0 absolute text-xs mt-15 -translate-y-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 font-light font-nunito" >
                             {item.title}
                         </span>
                     </div>

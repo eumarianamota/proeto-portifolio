@@ -12,7 +12,8 @@ export default function Home() {
       <header>
         <Header />
       </header>
-      <main className="mt-10 flex flex-col lg:flex-row lg:mt-20">
+
+      <main className="mt-10 flex flex-col lg:flex-row">
         <section>
           < Card />
         </section>

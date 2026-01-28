@@ -2,21 +2,22 @@ import { RiDiceLine, RiBookShelfLine, RiArrowRightCircleLine } from "@remixicon/
 
 export function About() {
     return (
-        <section className="mt-10 overflow-hidden lg:w-150 xl:w-200 lg:mt-0">
+        <section className="pt-10 lg:pt-0 overflow-hidden lg:w-150 xl:w-200">
             <div className="text-center lg:text-start lg:w-150 xl:w-180">
-                <h1>FRONT-END <span className="text-gray">DEVELOPER</span></h1>
+                <h1 data-aos="fade-down-right">FRONT-END <span className="text-gray">DEVELOPER</span></h1>
                 <p>Sou desenvolvedora Frontend e gosto de criar interfaces que sejam bonitas e, acima de tudo, funcionais, usando tecnologias como Next.js e Tailwind CSS. Além de construir projetos para a web, tenho mergulhado nos estudos de Dados porque acredito que entender os números ajuda a construir experiências melhores para o usuário.
 
                 <br/> <br/>Estou sempre em busca de aprendizado e me sinto motivada por projetos onde eu possa unir código, design e uma boa lógica de programação.</p>
             </div>
 
             <div className="mt-10 flex flex-col gap-5 md:flex-row lg:flex-col xl:flex-row">
-                <div className="bg-orange flex flex-col gap-5 rounded-xl px-5 py-5 hover:scale-98 hover:brightness-90 transition transform duration-300">
+                <a href="#projects" data-aos="flip-up" className="bg-velvet flex flex-col gap-5 rounded-xl px-5 py-5 hover:scale-98 hover:brightness-90 transition transform duration-300">
                     < RiBookShelfLine className="size-8 text-white"/>
                     <h3>CONHEÇA MEUS PROJETOS FRONT-END</h3>
                     < RiArrowRightCircleLine className="size-8 text-white text-right ml-auto"/>
-                </div>
-                <a className="bg-green flex flex-col gap-5 rounded-xl px-5 py-5 hover:scale-98 hover:brightness-90 transition transform duration-300" target="_blank" href="https://github.com/eumarianamota/data-science-studies">
+                </a>
+                
+                <a data-aos="flip-up"  className="bg-lavander-haze flex flex-col gap-5 rounded-xl px-5 py-5 hover:scale-98 hover:brightness-90 transition transform duration-300" target="_blank" href="https://github.com/eumarianamota/data-science-studies">
                     < RiDiceLine className="size-8 text-black"/>
                     <h3 className=" text-black">UM POUCO SOBRE MEUS ESTUDOS EM DADOS</h3>
                     < RiArrowRightCircleLine className="size-8 text-black text-right ml-auto"/>

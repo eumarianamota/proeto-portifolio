@@ -4,12 +4,12 @@ import { projects } from "@/constants/projects"
 
 export function Projects() {
     return (
-        <section id="projects" className="mt-10 overflow-x-hidden lg:w-150 xl:w-200">
-            <h1>PROJETOS<span className="text-gray"> RECENTES</span></h1>
+        <section id="projects" className="pt-10 overflow-hidden lg:w-150 xl:w-200">
+            <h1 data-aos="fade-down-right">PROJETOS<span className="text-gray"> RECENTES</span></h1>
 
             <div className="flex flex-col gap-5">
                 {projects.map((item, index) => (
-                        <a key={index} target="_blank" href={item.url} className="flex gap-5 py-2 px-2 rounded-2xl items-center hover:scale-98 transition transform duration-300">
+                        <a data-aos="zoom-in" key={index} target="_blank" href={item.url} className="flex gap-5 py-2 px-2 rounded-2xl items-center hover:scale-98 transition transform duration-300">
                             <Image
                                 src={item.image}
                                 alt={item.title}
